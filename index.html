@@ -10,19 +10,21 @@
 	<!-- Bootstrap 4.5 CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<!-- Style CSS -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="././css/style.css">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
 <body>
 	<!-- Navigation -->
 	<header class="header">
-		<div class="wrapper container">
-			<nav>
+		<div class="wrapper sticky">
+			<nav class="container">
 				<input type="checkbox" id="show-search">
 				<input type="checkbox" id="show-menu">
-				<label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+				<label for="show-menu" class="menu-icon" id="menu-icon"><i class="fas fa-bars"
+						onclick="hello()"></i></label>
 				<div class="content">
 					<div class="logo"><a href="#"><img src="./img/logo.png" /></a></div>
 					<ul class="links">
@@ -64,7 +66,29 @@
 					</div>
 					<div class="col-lg-4 col-sm-6 product-outline">
 						<div class="product-item">
-							<img src="./img/box cafe-06.png" />
+							<img src="./img/cupcafe-06.png" />
+							<p>CÀ PHÊ SỮA ĐÁ - 20 GÓI</p>
+							<span>44,000 VNĐ</span>
+							<div class="mul-btn mt-4">
+								<button class="btn btn-warning text-white">Mua Ngay</button>
+								<button class="btn  btn-outline-warning text-black">Tìm hiểu thêm</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 product-outline">
+						<div class="product-item">
+							<img src="./img/arabicacafe-06.png" />
+							<p>CÀ PHÊ SỮA ĐÁ - 20 GÓI</p>
+							<span>44,000 VNĐ</span>
+							<div class="mul-btn mt-4">
+								<button class="btn btn-warning text-white">Mua Ngay</button>
+								<button class="btn  btn-outline-warning text-black">Tìm hiểu thêm</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 product-outline">
+						<div class="product-item">
+							<img src="./img/robustacafe-06.png" />
 							<p>CÀ PHÊ SỮA ĐÁ - 20 GÓI</p>
 							<span>44,000 VNĐ</span>
 							<div class="mul-btn mt-4">
@@ -86,29 +110,7 @@
 					</div>
 					<div class="col-lg-4 col-sm-6 product-outline">
 						<div class="product-item">
-							<img src="./img/box cafe-06.png" />
-							<p>CÀ PHÊ SỮA ĐÁ - 20 GÓI</p>
-							<span>44,000 VNĐ</span>
-							<div class="mul-btn mt-4">
-								<button class="btn btn-warning text-white">Mua Ngay</button>
-								<button class="btn  btn-outline-warning text-black">Tìm hiểu thêm</button>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-sm-6 product-outline">
-						<div class="product-item">
-							<img src="./img/box cafe-06.png" />
-							<p>CÀ PHÊ SỮA ĐÁ - 20 GÓI</p>
-							<span>44,000 VNĐ</span>
-							<div class="mul-btn mt-4">
-								<button class="btn btn-warning text-white">Mua Ngay</button>
-								<button class="btn  btn-outline-warning text-black">Tìm hiểu thêm</button>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-sm-6 product-outline">
-						<div class="product-item">
-							<img src="./img/box cafe-06.png" />
+							<img src="./img/cupcafe-06.png" />
 							<p>CÀ PHÊ SỮA ĐÁ - 20 GÓI</p>
 							<span>44,000 VNĐ</span>
 							<div class="mul-btn mt-4">
@@ -133,7 +135,7 @@
 	<script src="js/popper.min.js"></script>
 	<!-- Font Awesome -->
 	<script src="js/all.min.js"></script>
-
+	<script src="js/myscript.js"></script>
 	<!-- End Script Source Files -->
 </body>
 
