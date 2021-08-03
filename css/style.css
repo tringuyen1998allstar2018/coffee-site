@@ -1,10 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
 }
 /*------------Header Start--------*/
 .sticky {
@@ -365,6 +364,12 @@ hr {
 }
 
 @media screen and (max-width: 400px) {
+  .titleText{
+    font-size:15px
+  }
+  .imgStore img{
+    width:150px
+  }
   .wrapper nav {
     padding: 0 10px;
   }
